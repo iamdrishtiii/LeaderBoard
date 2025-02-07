@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,20 +25,20 @@ const Navbar = () => {
 
             <button onClick={toggleMenu} >
               <p  className=' text-4xl font-bold mt-2  px-4 lg:hidden'>=</p>  
-             <ul style={navMobileStyles}> <li ><a href="/dashboard">Home</a></li>
-                <li><a href="/score">Score</a></li>
-                <li><a href="/popularplayer">Popular Player</a></li>
-                <li><a href="/about-us">About us</a></li>
-                <li><a href="/contact-us">Contact us</a></li></ul>
+             <ul style={navMobileStyles}> <li ><Link to="/dashboard">Home</Link></li>
+                <li><Link to="/score">Score</Link></li>
+                <li><Link to="/popularplayer">Popular Player</Link></li>
+                <li><Link to="/about-us">About us</Link></li>
+                <li><Link to="/contact-us">Contact us</Link></li></ul>
             </button>
 
 
             <div className='text-xl '><ul id="nav-mobile" className="lg:flex md:flex-row gap-4 pr-2 pb-4 sm:py-2 hidden">
-                <li ><a href="/dashboard">Home</a></li>
-                <li><a href="/score">Score</a></li>
-                <li><a href="/popularplayer">Popular Player</a></li>
-                <li><a href="/about-us">About us</a></li>
-                <li><a href="/contact-us">Contact us</a></li>
+                <li ><Link to="/dashboard">Home</Link></li>
+                <li><Link to="/score">Score</Link></li>
+                <li><Link to="/popularplayer">Popular Player</Link></li>
+                <li><Link to="/about-us">About us</Link></li>
+                <li><Link to="/contact-us">Contact us</Link></li>
 
             </ul> </div>
         </div>
