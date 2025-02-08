@@ -91,15 +91,15 @@ const Home = () => {
 
 
   return (
-    <div className='border-gray-400 rounded-md border-2 text-xl rounded-xl mx-4 sm:mx-20 mt-10 md:mx-40 lg:mx-60 xl:mx-80 md:mt-20 p-2 sm:p-10 transition duration-300 max-w-xl rounded overflow-hidden shadow-lg'>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Player Name: </label>
-        <input className='border-2 border-gray-400 rounded-md h-10 mt-6 p-4' type="text" id='name' name='name' placeholder='Enter Player Name' value={name} onChange={handleChange} />
+    <div className='border-gray-400 rounded-md border-2 text-xl rounded-xl mx-4 sm:mx-20 mt-10 md:mx-40 lg:mx-60 xl:mx-80 md:mt-20 p-2 sm:p-10 transition duration-300 max-w-xl rounded overflow-hidden shadow-xl'>
+      <form onSubmit={handleSubmit} >
+        <label htmlFor="name">Name: </label>
+        <input className='rounded-md h-10 mt-6 p-4' type="text" id='name' name='name' placeholder='Enter Player Name' value={name} onChange={handleChange} />
         <p style={{ color: "yellow" }}>{error.nameError}</p>
         <label htmlFor="score">Score: </label>
-        <input className='border-2 border-gray-400 rounded-md h-10 mt-6 p-4' type="number" id='score' name='score' placeholder='Enter Score' value={score} onChange={handleChange} />
+        <input className='rounded-md h-10 mt-6 p-4' type="number" id='score' name='score' placeholder='Enter Score' value={score} onChange={handleChange} />
         <p style={{ color: "yellow" }}>{error.scoreError}</p>
-        <button className='border-2 border-gray-400 rounded-lg h-12 my-6 mx-10 p-2'>Submit</button>
+        <p className='text-center h-12 my-6 mx-10'><button className='border-2 p-2 rounded-lg'>Submit</button></p>
       </form>
 
       <Modal

@@ -1,0 +1,1 @@
+export const userApi ='https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/6635'
