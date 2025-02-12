@@ -93,7 +93,7 @@ const Contact = () => {
     }
   }
   return (
-    <div>
+    <div  className='pd-20 sm:pb-28 lg:pb-32'>
 
       <p className='text-center font-bold text-4xl'>Contact Us</p>
       <div className="max-w-screen-xl mx-auto p-8 md:p-16 md:flex md:flex-wrap">
