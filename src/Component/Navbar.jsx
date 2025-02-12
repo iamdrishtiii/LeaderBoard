@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className=' text-4xl font-bold mt-2 pl-4 md:pr-4'>Leader Board</div>
 
             <button onClick={toggleMenu} >
-              <p  className=' text-4xl font-bold mt-2  px-4 lg:hidden'>=</p>  
+              <p  className=' text-4xl font-bold mt-2 px-4 lg:hidden'>=</p>  
              <ul style={navMobileStyles}> <li ><Link to="/dashboard">Home</Link></li>
                 <li><Link to="/score">Score</Link></li>
                 <li><Link to="/popularplayer">Popular Player</Link></li>

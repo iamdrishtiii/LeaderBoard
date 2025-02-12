@@ -2,9 +2,9 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
+    <div className='pd-20 sm:pb-28 lg:pb-32'>
       <p className='text-center font-bold text-4xl '>About Us</p>
-      <p className='text-center  sm:mx-10 sm:mt-10 text-xl'><h6 className='text-2xl m-4'>Leader Board</h6>
+      <p className='text-center sm:mx-10 sm:mt-10 text-xl'><h6 className='text-2xl m-4'>Leader Board</h6>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Inventore officiis expedita saepe blanditiis, sunt repellendus sed itaque officia.
           Quam quas cupiditate perspiciatis vero quae nemo provident ut, dolorem nesciunt exercitationem?
@@ -18,10 +18,10 @@ const About = () => {
           Adipisci odio voluptatum ipsam esse ipsum.</p></p>
       <div >
         <div className='sm:flex sm:flex-row text-2xl text-center mx-2 sm:mx-10 md:mx-20'>
-          <div className='sm:w-6/12 m-20 '>
+          <div className='sm:w-6/12 m-10 '>
             <img src="./images/arel-2.jpg" alt="" height="200px" />
           </div>
-          <div className='w-6/12 m-20'><p className='m-4 text-left'><h1>Founder</h1>
+          <div className='sm:w-6/12 m-10'><p className='m-4 text-left'><h1>Founder</h1>
             Florian Otto</p>
             <p className='m-4 text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem at nulla consequatur. Neque sunt incidunt necessitatibus, rerum blanditiis dicta?
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, architecto.
@@ -30,7 +30,7 @@ const About = () => {
         </div>
 
         <div className='sm:flex sm:flex-row text-2xl text-center mx-2 sm:mx-10 md:mx-20'>
-          <div className='w-6/12 m-10'>
+          <div className='sm:w-6/12 m-10'>
             <p className='m-4 text-left'><h1>Co-Founder</h1>
               Arel Lidow</p>
             <p className='m-4 text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ea.
@@ -51,7 +51,6 @@ const About = () => {
           <img src="./images/manager.jpg" alt="" />
           <p><h1>Manager</h1>
             Scott Stockberger</p>
-
         </div>
         <div className='sm:w-4/12 m-10 sm:m-4 '>
           <img src="./images/president.jpg" alt="" />

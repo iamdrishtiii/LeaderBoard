@@ -6,10 +6,11 @@ import Score from './pages/Score';
 import PopularPlayer from './pages/PopularPlayer';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Footer from './Component/Footer'
 
 const App = () => {
   return (
-    <>
+    <div className='relative min-h-[100vh] max-w-[1600px] mx-auto'>
     <BrowserRouter>
     <Navbar/>
     <Routes>
@@ -21,8 +22,9 @@ const App = () => {
         <Route path="/contact-us" element={<Contact/>} />
         <Route path="/popularplayer" element={<PopularPlayer/>} />
     </Routes>
+    <Footer/>
     </BrowserRouter> 
-    </>
+    </div>
   );
 };
 

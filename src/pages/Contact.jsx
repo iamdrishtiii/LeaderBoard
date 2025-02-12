@@ -96,9 +96,9 @@ const Contact = () => {
     <div>
 
       <p className='text-center font-bold text-4xl'>Contact Us</p>
-      <div className="max-w-screen-xl mx-auto p-16 flex flex-wrap">
+      <div className="max-w-screen-xl mx-auto p-8 md:p-16 md:flex md:flex-wrap">
 
-        <div className="w-7/12 gap-10">
+        <div className="md:w-7/12 gap-10">
           <div
             className="hover:bg-blue-900 hover:text-white transition duration-300 max-w-xl rounded overflow-hidden shadow-lg">
             <div className="py-6 px-8">
