@@ -21,7 +21,7 @@ const Score = () => {
         <label htmlFor="">Search : </label>
         <input placeholder='Search here...' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
       </div>
-      {users.lenght ? (
+      {users.length ? (
         <div >
           {users.filter((user) => user.name.toLowerCase().includes(searchTerm.toLowerCase())).map((user) => {
             return <div key={user.userId}>

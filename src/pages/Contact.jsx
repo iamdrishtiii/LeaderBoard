@@ -93,7 +93,7 @@ const Contact = () => {
     }
   }
   return (
-    <div  className='pd-20 sm:pb-28 lg:pb-32'>
+    <div  className='pb-32 sm:pb-28 lg:pb-32'>
 
       <p className='text-center font-bold text-4xl'>Contact Us</p>
       <div className="max-w-screen-xl mx-auto p-8 md:p-16 md:flex md:flex-wrap">
@@ -136,7 +136,7 @@ const Contact = () => {
 
         </div>
 
-        <div className='w-5/12 border-black border-2 text-lg  rounded-xl hover:bg-black hover:text-white transition duration-300 max-w-xl rounded overflow-hidden shadow-lg'>
+        <div className='md:w-5/12 p-4 m-4 md:m-0 border-black border-2 text-lg  rounded-xl hover:bg-black hover:text-white transition duration-300 max-w-xl rounded overflow-hidden shadow-lg'>
           <form onSubmit={handleSubmit}>
             <p className='font-bold text-xl text-center'>Contact us</p> <br /> <br />
             <label htmlFor="name" className='ml-10 my-2'>Name: </label>

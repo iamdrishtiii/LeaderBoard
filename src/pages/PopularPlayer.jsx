@@ -15,7 +15,7 @@ const PopularPlayer = () => {
 
  
   return (
-    <div className='flex flex-wrap pd-20 sm:pb-28 lg:pb-32'>
+    <div className='flex flex-wrap pb-32 sm:pb-28 lg:pb-32'>
        {popularplayer.length ? (
     popularplayer.map((pplayer) =><Card pplayer={pplayer} key={pplayer.id}/> )
   ) : (
